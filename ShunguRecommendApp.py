@@ -3,11 +3,11 @@ import pandas as pd
 import numpy as np
 ##movies = ["Jumanji","Ghost Busters","Rambo","Shark Attack"]
 
-movie_source = "C:/Users/shung_on75qpk/OneDrive/Documents/Unifi Data Engineer/ml-25m/movies.csv"
+movie_source = "C:/Users/my_user_name/OneDrive/Documents/Unifi Data Engineer/ml-25m/movies.csv"
 movies = pd.read_csv(movie_source)
 movie_title = movies["title"]
 
-ratings_source = "C:/Users/shung_on75qpk/OneDrive/Documents/Unifi Data Engineer/ml-25m/ratings.csv"
+ratings_source = "C:/Users/my_user_name/OneDrive/Documents/Unifi Data Engineer/ml-25m/ratings.csv"
 ratings = pd.read_csv(ratings_source)
 
 import re
